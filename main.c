@@ -11,7 +11,7 @@ int main(void) {
       if (b<c){
         max =c;
       }else{
-	max = b;
+	      max = b;
       }
     }else {
       max=a;
@@ -21,6 +21,7 @@ int main(void) {
       min=c;
     }
   }
-  printf("min: %d\n",min);
+  }
+  printf("min: %d, max: %d\n",min,max);
   return 0;
 }
